@@ -1,0 +1,105 @@
+{
+    "swagger":"2.0",
+    "info":{
+        "version":"1.0.0",
+        "title":"E-COM-API",
+        "description":"API for E-Commerce App"
+    },
+    "host":"localhost:3100",
+    "securityDefinitions":{
+        "JWT":{
+            "in":"header",
+            "name":"Authorization",
+            "type":"apiKey"
+        }
+    },
+    
+    "paths":{
+        "/api/user/signin":{
+            "post":{
+                "tags":["Users"],
+                "summary":"Login",
+                "description":"User Login to get token",
+                "parameters":[
+                    {
+                        "in":"body",
+                        "name":"body",
+                        "description":"User Credentials",
+                        "schema":{
+                            "type":"object",
+                            "properties":{
+                                "email":{
+                                    "type":"string"
+                                },
+                                "password":{
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"OK"
+                    },
+                    "400":{
+                        "description":"Incorrect Credentials"
+                    }
+                }
+            }
+        },
+        "/api/user/signup":{
+            "post":{
+                "tags":["Users"],
+                "summary":"Create a account",
+                "description":"User create a new account",
+                "parameters":[
+                    {
+                        "in":"body",
+                        "name":"body",
+                        "description":"User Credentials",
+                        "schema":{
+                            "type":"object",
+                            "properties":{
+                                "name":{
+                                    "type":"string"
+                                },
+
+                                "email":{
+                                    "type":"string"
+                                },
+                                "password":{
+                                    "type":"string"
+                                },
+                                "type":{
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "responses":{
+                    "201":{
+                        "description":"Account Created"
+                    }
+                }
+            }
+        },
+        "/api/products":{
+            "get":{
+                "tags":["Products"],
+                "summary":"Get All Products",
+                "description":"user will get all the products",
+                "security":[{"JWT":{}}],
+                "responses":{
+                    "200":{
+                        "description":"OK"
+                    },
+                    "401":{
+                        "description":"Unauthorized"
+                    }
+                }
+            }
+        }
+    }
+}
