@@ -12,6 +12,7 @@ import loggerMiddleware from './src/middelwares/logger.middleware.js';
 // import apiDocs from './swagger2.0.json' assert{type:'json'};
 import apiDocs from './swagger3.0.json' assert{type:'json'};
 import { ApplicationError } from './src/error-handler/applicationError.js';
+import {connectTOMongoDB} from './src/config/mongodb.js';
 // 2. Create Server
 const server = express();
 
@@ -85,4 +86,5 @@ server.use((req, res)=>{
 // 6. Specify port.
 server.listen(3100,()=>{
     console.log("Server is running at 3100");
+    connectTOMongoDB();
 });

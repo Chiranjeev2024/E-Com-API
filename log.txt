@@ -52,3 +52,82 @@
 {"level":"info","message":"/api/products/rate?productID=1&userID=10&rating=5 - {\"email\":\"seller@ecom.com\",\"password\":\"password1\"}","service":"request-logging"}
 {"level":"info","message":"/api/products?productID=1&userID=10&rating=5 - {\"email\":\"seller@ecom.com\",\"password\":\"password1\"}","service":"request-logging"}
 {"level":"info","message":"/api/products/rat?productID=1&userID=10&rating=5 - {\"email\":\"seller@ecom.com\",\"password\":\"password1\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"rajukrs1121@gmail.com\",\"password\":\"121@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller9@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller10999999@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"name\":\"seller user\",\"email\":\"seller10999999@gmail.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"name\":\"seller user\",\"email\":\"seller10999999@gmail.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seer109999990000000000@gmail.com\",\"password\":\"seller@Cks\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seer109999990000000000@gmail.com\",\"password\":\"seller@Cks\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seeail.com\",\"password\":\"seller@Cks\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller@ecom.com\",\"password\":\"password1\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller@ecom.com\",\"password\":\"password1\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"customer@ecom.com\",\"password\":\"password1\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"sell@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109999990000000000@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.cm\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"sellerCks.cm\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"sellerCks.cm\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"sellerCks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"seller109@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"chiru@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"chiru@gmail.com\",\"password\":\"seller@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"chiru@gmail.com\",\"password\":\"seller@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signup - {\"email\":\"pooja@gmail.com\",\"password\":\"pooja@Cks.com\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"pooja@gmail.com\",\"password\":\"pooja@Cks.com\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"pooja@gmail.com\",\"password\":\"pooja@Cks.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"pooja@gmail.com\",\"password\":\"pooja@C.co\"}","service":"request-logging"}
+{"level":"info","message":"/api/user/signin - {\"email\":\"pooja@gmail.com\",\"password\":\"pooja@Cks.com\"}","service":"request-logging"}

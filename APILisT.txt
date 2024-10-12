@@ -14,3 +14,19 @@
 
 1. SignUp - Email, Name, Password, TypeOfUser(customer, seller).
 2. SignIn - Email, Password.
+
+
+
+Folder Structure.
+Route configuration.
+Creating APIs.
+Defferent API Methods.
+Middlewares.
+Route parameters.
+Query parameters.
+Testing API using postman.
+Securing API using jwt token.
+Documenting API using swagger.
+CORS.
+logging.
+Error handling.
