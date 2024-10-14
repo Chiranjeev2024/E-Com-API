@@ -31,14 +31,13 @@ export default class UserController {
       } else {
         const result = await bcrypt.compare(req.body.password, user.password);
 
-        console.log(result)
 
         if (result) {
 
             // 1. Create token
           const token = jwt.sign(
-            { userID: result.id, email: result.email },
-            "mHf2112UIyNCJAG0Icw7kNe4dRzPOt4l",
+            { userID: user._id, email: user.email },
+            process.env.JWT_SECRET,
             { expiresIn: "1h" }
           );
           // 2. send token

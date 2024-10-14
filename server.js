@@ -1,7 +1,10 @@
+// import Enviroment Variables
+import "./env.js";
 // 1. Import express
 import express from 'express';
 import swagger, { serve } from 'swagger-ui-express';
 import cors from 'cors';
+
 // import bodyParser from 'body-parser';
 import productRouter from './src/features/product/product.router.js';
 import userRouter from './src/features/user/user.router.js';
@@ -55,7 +58,7 @@ server.use(express.json());
 
 server.use('/api-docs',swagger.serve, swagger.setup(apiDocs));
 server.use(loggerMiddleware);
-server.use("/api/products", jwtAuth, productRouter);
+server.use("/api/products",jwtAuth,  productRouter);
 server.use("/api/cartItems",jwtAuth, cartRouter);
 server.use("/api/user", userRouter);
 
@@ -74,7 +77,7 @@ server.use((err, req, res, next)=>{
     }
 
     // For server errors.
-    res.status(500).send("Something went wrong, please try later")
+    res.status(500).send("Something went wrong, please try laterrr")
 })
 
 
