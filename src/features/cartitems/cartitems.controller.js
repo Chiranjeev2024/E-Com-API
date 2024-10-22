@@ -1,26 +1,48 @@
 import cartItemsModel from "./cartitems.model.js";
+import cartItemsRepository from "./cartitems.repository.js";
 
 export default class cartItemsController{
-    add(req, res){
-        const {productID, quantity} = req.query;
-        const userID = req.userID;
-        cartItemsModel.add(productID, userID,quantity);
-        res.status(201).send('Cart is Updated');
-    }
 
-    get(req, res){
-        const userID = req.userID;
-        const items = cartItemsModel.get(userID);
-        return res.status(200).send(items);
+    constructor(){
+        this.cartItemsRepository = new cartItemsRepository();
     }
-
-    delete(req, res){
-        const userID = req.userID;
-        const cartItemID = req.params.id;
-        const error = cartItemsModel.delete(cartItemID, userID);
-        if(error){
-            return res.status(404).send(error);
+    async add(req, res){
+        try{
+            const {productID, quantity} = req.body;
+            const userID = req.userID;
+            await this.cartItemsRepository.add(productID, userID,quantity)
+            res.status(201).send('Cart is Updated');
+        }catch(err){
+            console.log(err);
+            throw new ApplicationError("some wents wrong cartitemsController", 500);
         }
-        return res.status(200).send("Cart item is removed")
+    }
+
+    async get(req, res){
+        try{
+            const userID = req.userID;
+            const items = await this.cartItemsRepository.get(userID);
+
+            console.log(items);
+            return res.status(200).send(items);
+        }catch(err){
+            console.log(err);
+            throw new ApplicationError("some wents wrong cartitemsController", 500);
+        }
+    }
+
+    async delete(req, res){
+        try{
+            const userID = req.userID;
+            const cartItemID = req.params.id;
+            const isDeleted = await this.cartItemsRepository.delete(cartItemID, userID);
+            if(!isDeleted){
+                return res.status(404).send("Cart item not found");
+            }
+            return res.status(200).send("Cart item is removed")
+        }catch(err){
+            console.log(err);
+            throw new ApplicationError("some wents wrong cartitemsController", 500);
+        }
     }
 }

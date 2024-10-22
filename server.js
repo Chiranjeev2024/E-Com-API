@@ -11,11 +11,15 @@ import userRouter from './src/features/user/user.router.js';
 import jwtAuth from './src/middelwares/jwt.middleware.js';
 import cartRouter from './src/features/cartitems/cartitems.router.js';
 import loggerMiddleware from './src/middelwares/logger.middleware.js';
+import orderRouter from "./src/features/order/order. routes.js";
 
 // import apiDocs from './swagger2.0.json' assert{type:'json'};
 import apiDocs from './swagger3.0.json' assert{type:'json'};
+
 import { ApplicationError } from './src/error-handler/applicationError.js';
 import {connectTOMongoDB} from './src/config/mongodb.js';
+import { connectUsingMongoose } from "./src/config/mongooseConfig.js";
+
 // 2. Create Server
 const server = express();
 
@@ -61,6 +65,7 @@ server.use(loggerMiddleware);
 server.use("/api/products",jwtAuth,  productRouter);
 server.use("/api/cartItems",jwtAuth, cartRouter);
 server.use("/api/user", userRouter);
+server.use("/api/order", jwtAuth, orderRouter);
 
 // 4. Default request handler
 server.get('/', (req, res)=>{
@@ -89,5 +94,7 @@ server.use((req, res)=>{
 // 6. Specify port.
 server.listen(3100,()=>{
     console.log("Server is running at 3100");
-    connectTOMongoDB();
+    // connectTOMongoDB();
+    connectUsingMongoose();
+
 });

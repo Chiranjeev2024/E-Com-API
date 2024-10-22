@@ -36,8 +36,8 @@ export default class ProductController{
     async rateProduct(req,res, next){
         try{
             const userID = req.userID;
-            const productID = req.query.productID;
-            const rating = req.query.rating;
+            const productID = req.body.productID;
+            const rating = req.body.rating;
 
             await this.productRepository.rate(userID, productID, rating);
             
@@ -45,7 +45,6 @@ export default class ProductController{
 
         }catch(err){
             console.log(err);
-            // throw new ApplicationError("some wents wrong with product controller", 500);
             next(err);
         }
     }
@@ -91,4 +90,24 @@ export default class ProductController{
 
     }
 
+
+    async averagePrice(req, res, next){
+        try{
+            const result = await this.productRepository.averageProductPricePerCategory();
+            res.status(200).send(result);
+        }catch(err){
+            console.log(err);
+            throw new ApplicationError("something wents wrong with product controller", 500);
+        }
+    }
+
+    async averageRating(req, res, next){
+        try{
+            const result = await this.productRepository.averageProductRatingPerCategory();
+            res.status(200).send(result);
+        }catch(err){
+            console.log(err);
+            throw new ApplicationError("something wents wrong with product controller", 500);
+        }
+    }
 }

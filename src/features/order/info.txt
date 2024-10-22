@@ -1,0 +1,6 @@
+Place Order.
+
+1. Get cart items of user, calculate the totalAmount.
+2. Create a record for order.
+3. Reduce the stock (products quantity).
+4. Clear the cert.

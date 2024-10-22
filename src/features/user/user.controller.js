@@ -52,4 +52,17 @@ export default class UserController {
       throw new ApplicationError("Sonthing wents wrong", 500);
     }
   }
+
+  async resetPassword(req, res, next){
+    try{
+      const {newPassword} = req.body;
+      const hashedPassword = await bcrypt.hash(newPassword, 12);
+      const userID = req.userID;
+      await this.userRepository.resetPassword(userID, hashedPassword)
+      res.status(200).send("Password Reset Successful!")
+    }catch(err){
+      console.log(err);
+      throw new ApplicationError("Sonthing wents wrong", 500);
+    }
+  }
 }
